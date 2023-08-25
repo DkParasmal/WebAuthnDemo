@@ -89,6 +89,7 @@ export class WebAuthnRegisterComponent implements OnInit {
   sendRegistrationDataAPI(registrationResponse:any)
   {
     return this.dataService.postRegisteredata(registrationResponse);
+   
     
   }
    //#endregion
