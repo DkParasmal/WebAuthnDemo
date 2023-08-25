@@ -1,6 +1,23 @@
 # WebAuth Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.0.
+# Introduction
+WebAuthn is a modern way to handle user authentication on the web, providing enhanced security and user experience. This Angular project demonstrates how to integrate WebAuthn using the @simplewebauthn/browser and @simplewebauthn/server library. The project showcases a simple authentication flow using the WebAuthn standard.
+
+#Installation
+To get started with the project, follow these steps:
+
+1.Clone this repository to your local machine:
+
+git clone https://github.com/DkParasmal/WebAuthn.git
+cd webauth-angular
+2.Install the project dependencies using npm:
+``bash
+npm install
+
+3.Install the @simplewebauthn/browser and   @simplewebauthn/server library:
+``bash
+npm install @simplewebauthn/browser
 
 ## Development server
 
